@@ -1,0 +1,287 @@
+.ql-editor .ql-video {
+  display: block;
+  width: 600px;
+  height: 300px;
+}
+
+.ql-snow .ql-editor {
+  min-height: 400px;
+}
+
+svg{
+  color: #545788 !important;
+}
+
+.btn.btn-success{
+  background: #54969f;
+  margin: 5px;
+  border: solid 1px #5496ff;
+}
+
+.btn.btn-success:hover {
+  background: #54969f;
+}
+
+.btn.btn-dark{
+  background: #2086b9;
+  margin: 5px;
+  border: solid 1px #2085b9;
+}
+
+.btn.btn-dark:hover {
+  background: #125e84;
+}
+
+.btn.btn-dark svg{
+  color: #FFFFFF !important;
+}
+
+.dropdown .btn.btn-primary, .show .btn.btn-primary {
+  color: #fff;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px 5px;
+}
+
+.dropdown .btn.btn-primary:focus, .show .btn.btn-primary:focus {
+  color: #fff;
+  background-color: transparent !important;
+  border-color:transparent !important;
+}
+
+.login .btn.btn-primary, .login .btn.btn-primary:focus{
+  color: #1666a9;
+  background: transparent;
+  border: transparent;
+  padding: 5px;
+  font-weight: Bold;
+}
+
+.login .dropdown-menu.show{
+  z-index: 9999;
+}
+
+.btn:focus, select:focus {outline: none !important;box-shadow: none !important;}
+
+
+.react-tagsinput-tag {
+  background-color: #2086b9 !important;
+  color: #ffffff !important;
+  border: 1px solid #2085b9 !important;
+}
+
+.react-tagsinput {
+  background-color: transparent !important;
+}
+
+.react-tagsinput input[type="text"]{
+  width: 90% !important;
+  background-color: transparent !important;
+}
+
+.react-tagsinput--focused {
+  border-color: #ced4da !important;
+}
+
+.hashTag .react-tagsinput-tag:before {
+  content: '#';
+}
+
+.personTag .react-tagsinput-tag:before {
+  content: '\26AD\0020';
+}
+
+.react-autosuggest__suggestions-container ul {
+  list-style: none;
+  padding: 0px;
+  max-height: 100px;
+  overflow: scroll;
+  border: solid 1px #dadced;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.react-autosuggest__suggestions-container {
+  outline: none !important;
+}
+
+input, select{
+  outline: none !important;
+}
+
+.react-autosuggest__suggestions-container ul li{
+  cursor: pointer;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.react-autosuggest__suggestions-container ul li:hover{
+  cursor: pointer;
+  background: #ced4da;
+  padding: 2px;
+  font-size: 12px;
+}
+
+span.personTag .react-tagsinput {
+  border-top: none !important;
+}
+
+span.hashTag .react-tagsinput {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.ql-container.ql-snow {
+  border-bottom: none !important;
+}
+
+.personTag .react-autosuggest__container:before{
+  content: '\26AD '; 
+}
+
+.blogs_thumbnails * {
+  cursor: pointer !important;
+}
+
+.comment_field .ql-editor {
+  min-height: 100px;
+  max-height: 100px;
+  margin: 5px;
+}
+
+.comments {
+  padding: 0px;
+}
+
+.comments .ql-editor {
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.pull-right{
+  float: right;
+}
+
+Button.dropdown-item:hover{
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: #5196a4 !important;
+}
+
+Button.dropdown-item:hover a{
+  color: #fff !important;
+}
+
+.story-editor .quill {
+  border-left: solid 1px #cecece;
+  border-right: solid 1px #cecece;
+  width: 100%;
+  height: 400px;
+}
+
+#logo {
+  position: relative;
+  animation-name: fly;
+  animation-duration: 5s;
+}
+
+@keyframes fly {
+  0%   {left:0px; top:0px;transform: rotate(360deg);}
+  25%  {left:180%; top:125px;}
+  75%  {left:80%; top:450px;transform: rotate(0deg);}
+  100% {left:0px; top:0px;}
+}
+
+.dropdown-menu{
+  background-color: #f1f0ef !important;
+}
+.dropdown-menu button{
+  color: #5d5a5a !important;
+}
+
+.watermark{
+  opacity: 0.05;
+  position: absolute;
+  left: 0;
+  border: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  width: 100%;
+}
+
+select option {
+  margin: 40px;
+  background: #f4f4f4;
+  color: rgb(116, 112, 112);
+}
+
+select:active option:hover {
+  color: #fff !important;
+  background-color: #5196a4 !important;
+}
+
+.modal-content{
+  color: #0c3a64;
+}
+
+.modal span.buttonText {
+  vertical-align: middle;
+  margin: 5px;
+  color: #0c3a64;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form{
+  color: #0c3a64;
+  margin: 0px 5px;
+}
+
+.femployeeform label {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: .5rem;
+  text-align: right;
+}
+
+.femployeeform .form-control {
+  display: inline-block !important;
+  width: 50% !important;
+  margin: 0em 1em;
+}
+
+.femployeeform  Button{
+  margin: 0em 1em !important;
+  float: right;
+}
+
+table td{
+  font-size: 12px;
+}
+
+input[disabled] {
+  background: #fff;
+  border: none;
+  text-align: center;
+}
+
+.employeeform input[disabled]{
+  text-align: left;
+}
+
+.employeeform label{
+  color: #8ab7f0 !important;
+}
+
+.container{
+  background: #0e0e0e !important;
+  opacity: 0.9 !important;
+}
+
+th{
+  text-align: center !important;
+  font-size: 13px !important;
+}
